@@ -2,12 +2,13 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'gatsby'
 import FrontBook from '../../static/banner/pexels-photo-417074.jpeg'
 import { MDBMask, MDBView } from "mdbreact";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon, MDBMedia } from "mdbreact";
-
 import author from '../../static/author/main_author.jpg'
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import '../assets/scss/upper-main.scss'
 
@@ -58,8 +59,29 @@ const UpperMain = () => {
                                 Sometimes, fiction isn't a far cry from reality.
                             </p>
                         </div>
-
-                        <Slider {...settings}>
+                        <CarouselProvider
+                            naturalSlideWidth={50}
+                            naturalSlideHeight={25}
+                            totalSlides={6}
+                            visibleSlides={2}
+                            infinite={true}
+                            isPlaying={true}
+                            dragEnabled={true}
+                            interval={5000}
+                            className="carousel"
+                        >
+                            <ButtonBack>Back</ButtonBack>
+                            <ButtonNext>Next</ButtonNext>
+                             <Slider className="slider">
+                                <Slide className="slide" index={0}><img src={Book1}/><h3>Visited by Star Travelers</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                                <Slide className="slide" index={1}><img src={Book2}/><h3>Alaskan Wilderness</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book3}/><h3>Alaskan Wilderness 2</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book4}/><h3>Alaskan Wilderness 3</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book5}/><h3>Marriage of the Heart</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book6}/><h3>Ancient Art of Dowsing</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                            </Slider>
+                        </CarouselProvider>
+                        {/* <Slider {...settings}>
                             <div className="book-wrapper-slider">
                                 <img src={Book2}/>
                                 <h3>Alaskan Wilderness</h3>
@@ -89,7 +111,7 @@ const UpperMain = () => {
                                 <img src={Book1}/>
                                 <h3>Visited by Star Travelers</h3>
                             </div>
-                    </Slider>
+                    </Slider> */}
                     </div>
                     <div className="container-gt">
                         <MDBCard className="my-5 px-5 pb-1 text-center card z-depth-5 hoverable">
