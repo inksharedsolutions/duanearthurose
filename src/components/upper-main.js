@@ -11,10 +11,12 @@ import author from '../../static/author/main_author.jpg'
 
 import '../assets/scss/upper-main.scss'
 
-import Book1 from '../../static/img/book_cover.png'
-import Book2 from '../../static/img/book_cover_2.png'
-import Book3 from '../../static/img/book_cover_3.png'
-import Book4 from '../../static/img/book_cover_4.png'
+import Book1 from '../../static/books/Book1.png'
+import Book2 from '../../static/books/Book2.png'
+import Book3 from '../../static/books/Book3.png'
+import Book4 from '../../static/books/Book4.png'
+import Book5 from '../../static/books/Book5.png'
+import Book6 from '../../static/books/Book6.png'
 
 import Logo1 from '../../static/logo/amazon.png'
 import Logo2 from '../../static/logo/bam.png'
@@ -45,7 +47,7 @@ const UpperMain = () => {
      };
 
     return (
-            <div className="section z-depth-5 hoverable">
+            <div className="content-section z-depth-5 hoverable">
                 <section className="upper-main">
                     <div className="container-gt">
 
@@ -59,32 +61,32 @@ const UpperMain = () => {
 
                         <Slider {...settings}>
                             <div className="book-wrapper-slider">
-                                <img src={Book1}/>
+                                <img src={Book2}/>
                                 <h3>Alaskan Wilderness</h3>
                             </div>
                             
                             <div className="book-wrapper-slider">
-                                <img src={Book1}/>
+                                <img src={Book3}/>
                                 <h3>Alaskan Wilderness 2</h3>
                             </div>
 
                             <div className="book-wrapper-slider">
-                                <img src={Book1}/>
+                                <img src={Book4}/>
                                 <h3>Alaskan Wilderness 3</h3>
                             </div>
 
                             <div className="book-wrapper-slider">
-                                <img src={Book1}/>
+                                <img src={Book6}/>
                                 <h3>Ancient Art of Dowsing</h3>
                             </div>
 
                             <div className="book-wrapper-slider">
-                                <img src={Book2}/>
+                                <img src={Book5}/>
                                 <h3>Marriage of the Heart</h3>
                             </div>
 
                             <div className="book-wrapper-slider">
-                                <img src={Book3}/>
+                                <img src={Book1}/>
                                 <h3>Visited by Star Travelers</h3>
                             </div>
                     </Slider>
