@@ -80,7 +80,7 @@ const UpperMain = () => {
                                 <Slide className="slide" index={2}><img src={Book5}/><h3>Marriage of the Heart</h3></Slide>
                                 <Slide className="slide" index={2}><img src={Book6}/><h3>Ancient Art of Dowsing</h3></Slide>
                             </Slider>
-                            <span><Link to="/about-the-book">Read more...</Link></span>
+                            <span><Link to="/about-the-book">READ MORE/Link></span>
                         </CarouselProvider>
                         {/* <Slider {...settings}>
                             <div className="book-wrapper-slider">
