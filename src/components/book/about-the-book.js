@@ -237,17 +237,6 @@ const AboutTheBook = (props) => {
                                             planning her headstone, words to be read and her resting
                                             place.
                                         </p>
-                                        <p className="white-text ">
-                                            Duane was born and raised on a farm north of Echo
-                                            Minnesota. Served in the army. Married they had three
-                                            children. Worked in deferent fields until he made his
-                                            own business company selling concrete. In 1977 he was
-                                            shot in the head, disabling him. He eventually moved
-                                            to the wilderness of Alaska and become the last federal
-                                            Homesteader to file in America. Duane the mountain
-                                            man has remarried is now an author of several books and
-                                            this book, Marriage of the Heart.
-                                        </p>
                                         <section className="fullSection">
                                             <nav className="booklinkBlocks">
                                                 <span>Ebooks :</span>
