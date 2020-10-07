@@ -73,12 +73,12 @@ const UpperMain = () => {
                             <ButtonBack>Back</ButtonBack>
                             <ButtonNext>Next</ButtonNext>
                              <Slider className="slider">
-                                <Slide className="slide" index={0}><img src={Book1}/><h3>Visited by Star Travelers</h3><span><a href="/about-the-book">Read More</a></span></Slide>
-                                <Slide className="slide" index={1}><img src={Book2}/><h3>Alaskan Wilderness</h3><span><a href="/about-the-book">Read More</a></span></Slide>
-                                <Slide className="slide" index={2}><img src={Book3}/><h3>Alaskan Wilderness 2</h3><span><a href="/about-the-book">Read More</a></span></Slide>
-                                <Slide className="slide" index={2}><img src={Book4}/><h3>Alaskan Wilderness 3</h3><span><a href="/about-the-book">Read More</a></span></Slide>
-                                <Slide className="slide" index={2}><img src={Book5}/><h3>Marriage of the Heart</h3><span><a href="/about-the-book">Read More</a></span></Slide>
-                                <Slide className="slide" index={2}><img src={Book6}/><h3>Ancient Art of Dowsing</h3><span><a href="/about-the-book">Read More</a></span></Slide>
+                                <Slide className="slide" index={0}><img src={Book1}/><h3>Visited by Star Travelers</h3><span><a href="/about-the-book">View</a></span></Slide>
+                                <Slide className="slide" index={1}><img src={Book2}/><h3>Alaskan Wilderness</h3><span><a href="/about-the-book">View</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book3}/><h3>Alaskan Wilderness 2</h3><span><a href="/about-the-book">View</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book4}/><h3>Alaskan Wilderness 3</h3><span><a href="/about-the-book">View</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book5}/><h3>Marriage of the Heart</h3><span><a href="/about-the-book">View</a></span></Slide>
+                                <Slide className="slide" index={2}><img src={Book6}/><h3>Ancient Art of Dowsing</h3><span><a href="/about-the-book">View</a></span></Slide>
                             </Slider>
                         </CarouselProvider>
                         {/* <Slider {...settings}>

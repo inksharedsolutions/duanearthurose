@@ -22,7 +22,7 @@ const Footer = (props) => (
                         </li>
 
                         <li>
-                            <Link to="/terms-and-conditions">Terms & Condition</Link>
+                            <Link to="/terms-and-conditions">Terms and Conditions</Link>
                         </li>
                         
                     </ul>

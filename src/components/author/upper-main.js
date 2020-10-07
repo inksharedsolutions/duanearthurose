@@ -40,7 +40,7 @@ const UpperMain = () => {
                                             on rural living, homesteading, survival, Alaskan living, and the art 
                                             of dowsing. He is also the author of Alaskan Wilderness Adventure: 
                                             Join Duane and His Son Daniel on a Journey Deep in the Alaskan Wilderness 
-                                            in Search of Finding a New Home
+                                            in Search of Finding a New Home.
                                         </p>
                                         <a href="https://www.facebook.com/Duane-Arthur-Ose-104025487773453/" target="_blank" className="p-2 fa-lg fb-ic">
                                             <MDBIcon fab icon="facebook-f" />

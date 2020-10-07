@@ -6,8 +6,8 @@ import Logo from '../../../static/logo/topLogo.png'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
-      {/* <img src={Logo}/> */}
+      {/* <span className="icon fa-diamond"></span> */}
+      <Link to="/"><img src={Logo}/></Link>
     </div>
     <div className="content">
       <div className="inner">
