@@ -113,13 +113,7 @@ const AboutTheBook = (props) => {
                                             Author/Writer
                                         </h6> */}
                                         <p className="white-text">
-                                            Homesteading in the wilderness of Alaska…
-                                        </p>
-                                        <p className="white-text">
-                                            This book is about 1987 and is the third book in a continuing series of the life adventures of the last federal homesteader in America to have filed on the Federal Homestead Act of 1862. This act was closed in October 1986, never to reopen. Read to view parts of 1987’s construction stage, struggles, hardships, accomplishments, bears, and up close encounters with what I come to call the Hairy Ones. The Hairy Ones are peaceful beings and not the scary monsters that they’re made out to be. The Hairy Ones are bashful, elusive, and friendly beings. 
-                                        </p>
-                                        <p className="white-text">
-                                            Duane Arthur Ose was born and raised in Minnesota. He enlisted in the army in 1964 at the age of twenty-one and spent one of his three years of service in Korea as a US army engineer. Duane met Rena, his second wife, through the mail-order bride system, and she moved to the Alaskan homestead to live in a hole in the ground (called a dugout) for nine years while she and Duane built their three-story log home. They live off the land for the most part, gardening, using solar power, and trapping. (Rena does the skinning.) Duane is a survival expert, skilled at living and thriving under extreme conditions. A sought-after public speaker, Duane gives presentations on rural living, homesteading, survival, Alaskan living, and the art of dowsing. He is also the author of Alaskan Wilderness Adventure: Join Duane and His Son Daniel on a Journey Deep in the Alaskan Wilderness in Search of Finding a New Home. 
+                                        This book is about 1987 and is the third book in a continuing series of the life adventures of the last federal homesteader in America to have filed on the Federal Homestead Act of 1862. This act was closed in October 1986, never to reopen. Read to view parts of 1987’s construction stage, struggles, hardships, accomplishments, bears, and up close encounters with what I come to call the Hairy Ones. The Hairy Ones are peaceful beings and not the scary monsters that they’re made out to be. The Hairy Ones are bashful, elusive, and friendly beings. 
                                         </p>
                                         <section className="fullSection">
                                             <nav className="booklinkBlocks">
