@@ -44,7 +44,7 @@ const AboutTheBook = (props) => {
                                             <nav className="booklinkBlocks">
                                                 <span>Ebooks :</span>
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/gp/product/B082VLS2LC?notRedirectToSDP=1&ref_=dbs_mng_calw_0&storeType=ebooks">Amazon</a></li>
-                                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/alaskan-wilderness-adventure-book-1/">Stratton Press</a></li>
+																								{/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/alaskan-wilderness-adventure-book-1/">Stratton Press</a></li>*/}
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/alaskan-wilderness-adventure-duane-arthur-ose/1135622817?ean=9781643458380">Barnes & Noble</a></li>
                                             </nav>
 
@@ -83,7 +83,7 @@ const AboutTheBook = (props) => {
                                             <nav className="booklinkBlocks">
                                                 <span>Ebooks :</span>
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Alaskan-Wilderness-Adventure-Book-2-ebook/dp/B082VLD2LY/ref=sr_1_1?keywords=9781643458373&qid=1576687927&sr=8-1">Amazon</a></li>
-                                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/alaskan-wilderness-adventure-book-2/">Stratton Press</a></li>
+																								{/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/alaskan-wilderness-adventure-book-2/">Stratton Press</a></li>*/}
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/alaskan-wilderness-adventure-duane-arthur-ose/1135622816?ean=9781643458373">Barnes & Noble</a></li>
                                             </nav>
 
@@ -119,7 +119,7 @@ const AboutTheBook = (props) => {
                                             <nav className="booklinkBlocks">
                                                 <span>Ebooks :</span>
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Alaskan-Wilderness-Adventure-Book-3-ebook/dp/B084D5SVWR/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">Amazon</a></li>
-                                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/alaskan-wilderness-adventure-book-3/">Stratton Press</a></li>
+																								{/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/alaskan-wilderness-adventure-book-3/">Stratton Press</a></li>*/}
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/alaskan-wilderness-adventure-duane-arthur-ose/1136287284?ean=9781643458410">Barnes & Noble</a></li>
                                             </nav>
 
@@ -155,7 +155,7 @@ const AboutTheBook = (props) => {
                                             <nav className="booklinkBlocks">
                                                 <span>Ebooks :</span>
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Ancient-Art-Dowsing-Duane-Arthur-ebook/dp/B082MT37J2/ref=sr_1_1?keywords=9781643457994&qid=1576165735&sr=8-1">Amazon</a></li>
-                                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/ancient-art-of-dowsing/">Stratton Press</a></li>
+																								{/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/ancient-art-of-dowsing/">Stratton Press</a></li>*/}
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/ancient-art-of-dowsing-duane-ose/1123233797?ean=9781643457994">Barnes & Noble</a></li>
                                             </nav>
 
@@ -199,7 +199,7 @@ const AboutTheBook = (props) => {
                                             <nav className="booklinkBlocks">
                                                 <span>Ebooks :</span>
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Visited-Star-Travelers-Duane-Arthur-ebook/dp/B082VLML1B/ref=sr_1_1?keywords=9781643458342&qid=1576687754&sr=8-1">Amazon</a></li>
-                                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/visited-by-star-travelers/">Stratton Press</a></li>
+																								{/*<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/visited-by-star-travelers/">Stratton Press</a></li>*/}
                                                 <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/visited-by-star-travelers-duane-arthur-ose/1135622815?ean=9781643458342">Barnes & Noble</a></li>
                                             </nav>
 
